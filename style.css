@@ -1,0 +1,842 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    /* border: 2px solid black; */
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 10px;
+}
+.fix-left{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 820px;
+    box-sizing: border-box;
+    padding: 1px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    /* position: sticky;   */
+ 
+}
+.fix-left>i{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.butterfly-img{
+   background-image: url(./butterfly_2000x.jpg);
+    height: 227px;
+    width: 220px;
+    background-size: 100% 100%;
+    background-position: cover;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+.home{
+    font-size: 17px;
+    color: black;
+    display: block;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.Flora{
+    font-size: 17px;
+    color: black;
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 15px;
+}
+.Flora>i{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.Fauna{
+    font-size: 17px;
+    color: black;
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 15px;
+}
+.Fauna>i{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.Modern{
+    font-size: 17px;
+    color: black;
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 15px;
+}
+.Modern>i{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.Painting{
+    font-size: 17px;
+    color: black;
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 15px;
+}
+.Studio{
+    font-size: 17px;
+    color: black;
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 15px;
+}
+.About{
+    font-size: 17px;
+    color: black;
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 15px;
+}
+.Contact{
+    font-size: 17px;
+    color: black;
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 15px;
+}
+.FAQ{
+    font-size: 17px;
+    color: black;
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 15px;
+}
+.flex{
+    font-size: 17px;
+    color: black;
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 15px;
+}
+.behance{
+    margin-top: 5px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.icon-main{
+    /* border: 2px solid black; */
+    height: 30px;
+    width: 200px;
+    margin-top: 30px;
+}
+.dribbble{
+    margin-left: 7px;
+}
+.instagram{
+    margin-left: 7px;
+}
+.pinterest{
+    margin-left: 7px;
+}
+.tiktok{
+    margin-left: 7px;
+}
+.youtube{
+    margin-left: 7px;
+}
+.powered-by{
+    /* border: 2px solid black; */
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.right-main{
+    /* border: 2px solid #faf9f7; */
+    height: 1240px;
+    width: 1279px;
+    margin-left: 300px;
+    margin-top: 0px;
+}
+.flowers{
+    background-image: url(./flowers_1600x.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 1240px;
+    width: 1279px;
+}
+.gallery{
+    /* border: 2px solid black; */
+    border: 2px solid #faf9f7;
+    background-color: #faf9f7;
+    height: 1540px;
+    width: 1279px;
+    margin-left: 300px;
+    box-sizing: border-box;
+    padding: 1px;
+    text-align: center ;
+    font-size: 25px;
+    padding-top: 30px;
+}
+.red-line{
+    height: 1px;
+    width: 100px;
+    margin-left: 580px;
+    margin-top: 20px;
+    background-color: red;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.child{
+    margin-top: 150px;
+}
+
+.trout-hover{
+    background-color: #faf9f7;
+    height: 150px; width: 250px;
+    box-sizing: border-box;
+    padding: 1px;
+    opacity: 0.5;
+    padding-top: 110px;
+    padding-left: 80px;
+    position: relative;
+    visibility: hidden;
+    top: 130px;
+}
+.child1:hover .trout-hover
+{
+  position: relative;
+  top: 0%;
+  transition-duration: 0.2s;
+  visibility: visible;
+}
+.trout-quickview{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+}
+.storm-hover{
+    background-color: #faf9f7;
+    height: 300px; 
+    width: 280px;
+    box-sizing: border-box;
+    padding: 1px;
+    opacity: 0.5;
+    padding-top: 130px;
+    padding-left: 100px;
+    position: relative;
+    visibility: hidden;
+    top: 130px; 
+}
+ 
+
+.child4:hover .storm-hover{
+    position: relative;
+    top: 0%;
+    transition-duration: 0.2s;
+    visibility: visible;
+}
+.storm-quickview{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+}
+.cicadas-hover{
+    background-color: #faf9f7;
+    height: 300px; 
+    width: 280px;
+    box-sizing: border-box;
+    padding: 1px;
+    opacity: 0.5;
+    padding-top: 130px;
+    padding-left: 100px;
+    position: relative;
+    visibility: hidden;
+    top: 130px; 
+}
+.child5:hover .cicadas-hover{
+    position: relative;
+    top: 0%;
+    transition-duration: 0.2s;
+    visibility: visible;
+}
+.cicadas-quickview{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+}
+.Rubber-hover{
+    background-color: #faf9f7;
+    height: 300px; 
+    width: 280px;
+    box-sizing: border-box;
+    padding: 1px;
+    opacity: 0.5;
+    padding-top: 130px;
+    padding-left: 100px;
+    position: relative;
+    visibility: hidden;
+    top: 130px;
+}
+.child6:hover .Rubber-hover{
+    position: relative;
+    top: 0%;
+    transition-duration: 0.2s;
+    visibility: visible;
+}
+.Rubber-quickview{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+}
+.Feather-hover{
+    background-color: #faf9f7;
+    height: 300px; 
+    width: 280px;
+    box-sizing: border-box;
+    padding: 1px;
+    opacity: 0.5;
+    padding-top: 130px;
+    padding-left: 100px;
+    position: relative;
+    visibility: hidden;
+    top: 130px;
+}
+.child7:hover .Feather-hover{
+    position: relative;
+    top: 0%;
+    transition-duration: 0.2s;
+    visibility: visible;
+}
+.Feather-quickview{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+}
+
+.Summer-hover{
+    background-color: #faf9f7;
+    height: 300px; 
+    width: 280px;
+    box-sizing: border-box;
+    padding: 1px;
+    opacity: 0.5;
+    padding-top: 130px;
+    padding-left: 100px;
+    position: relative;
+    visibility: hidden;
+    top: 130px;
+}
+.child8:hover .Summer-hover{
+    position: relative;
+    top: 0%;
+    transition-duration: 0.2s;
+    visibility: visible;
+}
+.Summer-quickview{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+}
+
+.Whale-hover{
+    background-color: #faf9f7;
+    height: 150px; width: 250px;
+    box-sizing: border-box;
+    padding: 1px;
+    opacity: 0.5;
+    padding-top: 110px;
+    padding-left: 80px;
+    position: relative;
+    visibility: hidden;
+    top: 130px;
+}
+.child9:hover .Whale-hover{
+    position: relative;
+    top: 0%;
+    transition-duration: 0.2s;
+    visibility: visible;
+}
+.Whale-quickview{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+}
+
+.Wake-hover{
+    background-color: #faf9f7;
+    height: 300px; 
+    width: 280px;
+    box-sizing: border-box;
+    padding: 1px;
+    opacity: 0.5;
+    padding-top: 130px;
+    padding-left: 100px;
+    position: relative;
+    visibility: hidden;
+    top: 130px;
+}
+.child10:hover .Wake-hover{
+    position: relative;
+    top: 0%;
+    transition-duration: 0.2s;
+    visibility: visible;
+}
+.Wake-quickview{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+}
+
+.Shape-hover{
+    background-color: #faf9f7;
+    height: 300px; 
+    width: 280px;
+    box-sizing: border-box;
+    padding: 1px;
+    opacity: 0.5;
+    padding-top: 130px;
+    padding-left: 100px;
+    position: relative;
+    visibility: hidden;
+    top: 130px;
+}
+.child11:hover .Shape-hover{
+    position: relative;
+    top: 0%;
+    transition-duration: 0.2s;
+    visibility: visible;
+}
+.Shape-quickview{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+}
+
+.Moth-hover{
+    background-color: #faf9f7;
+    height: 150px; width: 250px;
+    box-sizing: border-box;
+    padding: 1px;
+    opacity: 0.5;
+    padding-top: 110px;
+    padding-left: 80px;
+    position: relative;
+    visibility: hidden;
+    top: 130px;
+}
+.child12:hover .Moth-hover{
+    position: relative;
+    top: 0%;
+    transition-duration: 0.2s;
+    visibility: visible;
+}
+.Moth-quickview{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+}
+
+.Stem-hover{
+    background-color: #faf9f7;
+    height: 300px; 
+    width: 280px;
+    box-sizing: border-box;
+    padding: 1px;
+    opacity: 0.5;
+    padding-top: 130px;
+    padding-left: 100px;
+    position: relative;
+    visibility: hidden;
+    top: 130px;
+}
+.child13:hover .Stem-hover{
+    position: relative;
+    top: 0%;
+    transition-duration: 0.2s;
+    visibility: visible;
+}
+.Stem-quickview{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+}
+
+.Stack-hover{
+    background-color: #faf9f7;
+    height: 300px; 
+    width: 280px;
+    box-sizing: border-box;
+    padding: 1px;
+    opacity: 0.5;
+    padding-top: 130px;
+    padding-left: 100px;
+    position: relative;
+    visibility: hidden;
+    top: 130px;
+}
+.child14:hover .Stack-hover{
+    position: relative;
+    top: 0%;
+    transition-duration: 0.2s;
+    visibility: visible;
+}
+.Stack-quickview{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+}
+.container2{
+    border: 2px solid #faf9f7;
+    height: 1360px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -881px;
+}
+.Journey-main{
+    background-color: #ececec;
+    height:250px; 
+    width: 1279px;
+    margin-left: 303px;
+    box-sizing: border-box;
+    padding: 1px;
+
+}
+.Journey-main>h1{
+    text-align: center;
+    font-size: 27px;
+    margin-top: 30px;
+    color: black;
+}
+.first-name{
+    border: 1px solid black;
+    background-color: white;
+    height: 35px;
+    width: 600px;
+    text-align: start;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 332px;
+    color: grey;
+    font-size: 19px;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.email-div{
+    border: 1px solid black;
+    background-color: white;
+    height: 34px;
+    width: 435px;
+    border-radius: 20px;
+    color: grey;
+    margin-top: 20px;
+    margin-left: 332px;
+    font-size: 19px;
+    text-align: start;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.sign-up{
+    border: 1px solid black;
+    height: 34px;
+    width: 150px;
+    border-radius: 20px;
+    color: grey;
+    margin-top: -34px;
+    margin-left: 782px;
+    font-size: 19px;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 5px;
+    text-align: center;
+}
+.sign-up:hover{
+    background-color: gray;
+    color: white;
+}
+.studio-maindiv{
+    /* border: 2px solid black; */
+    height: 830px;
+    width: 1279px;
+    margin-left: 300px;
+    margin-top: 0px;
+    background-color: #f9f7f5;
+    box-sizing: border-box;
+    padding: 1px;
+}
+.studio-container{
+    /* border: 2px solid black; */
+    height: 341px;
+    width: 1270px;
+    margin-left: 0px;
+    margin-top: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.studio-div1{
+    border:2px solid black; 
+    width:400px; 
+    height:300px; 
+    box-sizing: border-box;
+    padding: 1px;
+    overflow: hidden;
+}
+.div-img1{
+    background-image: url(./framing_1600x.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 190px;
+    width:395px;
+    margin-left: 0px;
+}
+.div-img1:hover{
+    transform: scale(1.2);
+    transition-duration: 1.7s;
+}
+.studio-div1>h1{
+    color: black;
+    font-size: 21px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.date-div1{
+    color: black;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.grey-div1{
+    height: 15px;
+    width: 2px;
+    background-color: grey;
+    margin-left: 130px;
+    margin-top: -15px;
+}
+.time-div1{
+    color: black;
+    font-size: 15px;
+    margin-left: 150px;
+    margin-top: -17px;
+}
+.studio-div2{
+    border:2px solid black; 
+    width:400px; 
+    height:300px; 
+    box-sizing: border-box;
+    padding: 1px;
+}
+.div-img2{
+    background-image: url(./post-tools2_1600x.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 190px;
+    width:395px;
+    margin-left: 0px;
+}
+.div-img2:hover{
+    transform: scale(1.2);
+    transition-duration: 1.7s;
+}
+.studio-div2>h1{
+    color: black;
+    font-size: 21px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.date-div2{
+    color: black;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.grey-div2{
+    height: 15px;
+    width: 2px;
+    background-color: grey;
+    margin-left: 130px;
+    margin-top: -15px;
+}
+.time-div2{
+    color: black;
+    font-size: 15px;
+    margin-left: 150px;
+    margin-top: -17px;
+}
+.studio-div3{
+    border:2px solid black; 
+    width:400px; 
+    height:300px; 
+    box-sizing: border-box;
+    padding: 1px;
+}
+.div-img3{
+    background-image: url(./post-101_1600x.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 190px;
+    width:395px;
+    margin-left: 0px;
+}
+.div-img3:hover{
+    transform: scale(1.2);
+    transition-duration: 1.7s;
+}
+.studio-div3>h1{
+    color: black;
+    font-size: 21px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.date-div3{
+    color: black;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.grey-div3{
+    height: 15px;
+    width: 2px;
+    background-color: grey;
+    margin-left: 130px;
+    margin-top: -15px;
+}
+.time-div3{
+    color: black;
+    font-size: 15px;
+    margin-left: 150px;
+    margin-top: -17px;
+}
+.studio-logo{
+    background-image: url(./studio__logo-brown_1600x.png);
+    height: 120px;
+    width: 200px;
+    margin-left: 550px;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+.logo-para{
+    font-size: 17px;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}
+#CAD{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 150px;
+    margin-left: 580px;
+    margin-top: 70px;
+    color: black;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-left: 5px;
+    padding-top: 0px;
+}
+.CAD>i{
+    font-size: 16px;
+    color: black;
+    margin-left: 10px;
+}
+.end-line{
+    color: black;
+    margin-left: 450px;
+    font-size: 16px;
+    margin-top: 90px;
+}
